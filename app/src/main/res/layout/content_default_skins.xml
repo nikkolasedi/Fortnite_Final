@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DefaultSkins"
+    android:layout_marginTop="100dp"
+    tools:showIn="@layout/activity_default_skins">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default3" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default5" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default7" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fortnite_outfit_default8" />
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>

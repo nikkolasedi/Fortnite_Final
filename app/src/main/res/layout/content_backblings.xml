@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Backblings"
+    tools:showIn="@layout/activity_backblings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnRareBackblings"
+            style="@android:style/Widget.Button"
+            android:layout_width="243dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="20dp"
+            android:height="50dp"
+            android:background="#FF3b3f"
+            android:gravity="center"
+            android:text="Rare Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btnEpicBackblings"
+            style="@android:style/Widget.Button"
+            android:layout_width="243dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="20dp"
+            android:height="50dp"
+            android:background="#FF3b3f"
+            android:gravity="center"
+            android:text="Epic Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btnLegendaryBackblings"
+            style="@android:style/Widget.Button"
+            android:layout_width="243dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="20dp"
+            android:height="50dp"
+            android:background="#FF3b3f"
+            android:gravity="center"
+            android:text="Legendary Backblings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

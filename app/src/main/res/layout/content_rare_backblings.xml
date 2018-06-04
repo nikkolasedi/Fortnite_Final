@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RareBackblings"
+    android:layout_marginTop="100dp"
+    tools:showIn="@layout/activity_rare_backblings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="196dp"
+                    android:background="?attr/actionBarDivider"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fortnite_back_bling_royale_shield" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Royale Shield"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:fontFamily="sans-serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="196dp"
+                    android:background="?attr/actionBarDivider"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fortnite_back_bling_precision" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="12sp"
+                    android:text="Precision"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="14sp"
+                    android:typeface="sans"
+                    app:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="200dp"
+                    android:layout_height="196dp"
+                    android:background="?attr/actionBarDivider"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fortnite_back_bling_standard_issue" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Standard Issue"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:fontFamily="sans-serif" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
