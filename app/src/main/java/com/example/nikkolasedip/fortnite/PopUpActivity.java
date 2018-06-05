@@ -17,13 +17,14 @@ public class PopUpActivity extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(width*.8),(int)(height*.8));
+        getWindow().setLayout((int)(width*.8),(int)(height*.4));
 
         ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton4);
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
             int resid = bundle.getInt("resId");
-            imageButton.setImageResource(resid);
+            //imageButton.setImageResource(resid);
+            imageButton.setBackgroundResource(resid);
         }
 
     }

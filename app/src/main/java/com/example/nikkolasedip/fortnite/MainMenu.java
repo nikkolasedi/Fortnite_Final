@@ -41,7 +41,7 @@ public class MainMenu extends AppCompatActivity {
 
         //Ads calling
         mPublisherInterstitialAd = new PublisherInterstitialAd(this);
-        mPublisherInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mPublisherInterstitialAd.setAdUnitId("ca-app-pub-8652521979865733/1912630552");
 
         mPublisherInterstitialAd.setAdListener(new AdListener() {
             @Override

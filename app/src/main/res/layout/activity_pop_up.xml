@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C0000000"
+    android:background="@drawable/fortnite_back_bling_precision"
     android:theme="@style/AppTheme.NoActionBar"
     android:gravity="center_vertical|center_horizontal|center"
     tools:context=".PopUpActivity">
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fortnite_back_bling_precision" />
+        android:layout_width="358dp"
+        android:layout_height="469dp"
+        android:background="@android:color/white"
+        />
 </RelativeLayout>

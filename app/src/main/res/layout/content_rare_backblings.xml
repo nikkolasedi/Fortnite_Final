@@ -34,7 +34,7 @@
                     android:layout_height="196dp"
                     android:background="?attr/actionBarDivider"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/fortnite_back_bling_royale_shield" />
+                    android:src="@drawable/fortnite_back_bling_royale_shield_768x629" />
 
                 <TextView
                     android:id="@+id/textView3"
