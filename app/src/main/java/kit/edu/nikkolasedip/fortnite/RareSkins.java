@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class RareSkins extends AppCompatActivity {
 

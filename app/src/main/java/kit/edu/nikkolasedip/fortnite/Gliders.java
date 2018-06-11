@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class Gliders extends AppCompatActivity {
 
@@ -63,7 +63,7 @@ public class Gliders extends AppCompatActivity {
 
     public void openAnotherActivity(String activityName) {
         try {
-            Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite." + activityName);
+            Class<?> activityClass = Class.forName("kit.edu.nikkolasedip.fortnite." + activityName);
             Intent intent = new Intent(this, activityClass);
             startActivity(intent);
         } catch (ClassNotFoundException e) {

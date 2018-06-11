@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class EpicPickaxes extends AppCompatActivity {
 

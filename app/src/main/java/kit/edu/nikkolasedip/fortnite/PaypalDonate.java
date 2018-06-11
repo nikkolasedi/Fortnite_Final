@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import kit.edu.nikkolasedip.fortnite.config.Config;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 import com.paypal.android.sdk.payments.PayPalConfiguration;
 import com.paypal.android.sdk.payments.PayPalPayment;
 import com.paypal.android.sdk.payments.PayPalService;

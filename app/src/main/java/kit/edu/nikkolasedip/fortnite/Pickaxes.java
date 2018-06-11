@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class Pickaxes extends AppCompatActivity {
 
@@ -45,7 +45,7 @@ public class Pickaxes extends AppCompatActivity {
 
     public void openAnotherActivity(String activityName){
         try {
-            Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);
+            Class<?> activityClass = Class.forName("kit.edu.nikkolasedip.fortnite."+activityName);
             Intent intent = new Intent(this, activityClass);
             startActivity(intent);
         } catch (ClassNotFoundException e ) {

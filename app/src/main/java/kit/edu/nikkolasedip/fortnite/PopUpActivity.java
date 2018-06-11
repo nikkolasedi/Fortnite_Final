@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.widget.ImageButton;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class PopUpActivity extends AppCompatActivity {
 

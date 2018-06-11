@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 
 public class Skins extends AppCompatActivity {
 
@@ -63,7 +63,7 @@ public class Skins extends AppCompatActivity {
     //Creating openAnotherActivity method
     public void openAnotherActivity(String activityName){
         try {
-            Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);
+            Class<?> activityClass = Class.forName("kit.edu.nikkolasedip.fortnite."+activityName);
             Intent intent = new Intent(this, activityClass);
             startActivity(intent);
         } catch (ClassNotFoundException e ) {

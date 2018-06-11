@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.edu.nikkolasedip.fortnite.R;
+import kit.edu.nikkolasedip.fortnite.R;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
@@ -57,6 +57,7 @@ public class MainMenu extends AppCompatActivity {
         btnBackblings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
 
                 if (mPublisherInterstitialAd.isLoaded()) {
                     mPublisherInterstitialAd.show();
@@ -140,7 +141,7 @@ public class MainMenu extends AppCompatActivity {
 
     public void openAnotherActivity(String activityName){
         try {
-            Class<?> activityClass = Class.forName("com.example.nikkolasedip.fortnite."+activityName);
+            Class<?> activityClass = Class.forName("kit.edu.nikkolasedip.fortnite."+activityName);
             Intent intent = new Intent(this, activityClass);
             startActivity(intent);
         } catch (ClassNotFoundException e ) {
