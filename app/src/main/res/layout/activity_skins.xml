@@ -11,9 +11,8 @@
     <include
         layout="@layout/content_skins"
         android:layout_width="wrap_content"
-        android:layout_height="591dp"
-        android:layout_gravity="center"
-        android:layout_margin="60dp" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
     <TextView
         android:id="@+id/textView6"

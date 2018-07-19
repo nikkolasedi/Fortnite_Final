@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kit.edu.nikkolasedip.fortnite">
+    package="kit.edu.nikkolasedip.fortnitepay">
 
     <application
         android:hardwareAccelerated="true"
@@ -104,9 +104,11 @@
         <activity
             android:name=".LegendarySkins"
             android:label="@string/title_activity_legendary_skins"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".PaypalDonate" />
-        <activity android:name=".PaymentDetails"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeasonFiveSkin"
+            android:label="@string/title_activity_season_five_skin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

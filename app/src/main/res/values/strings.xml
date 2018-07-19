@@ -114,4 +114,5 @@
     <string name="title_activity_rare_skins">RareSkins</string>
     <string name="title_activity_epic_skins">EpicSkins</string>
     <string name="title_activity_legendary_skins">LegendarySkins</string>
+    <string name="title_activity_season_five_skin">SeasonFiveSkin</string>
 </resources>
